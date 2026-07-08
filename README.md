@@ -7,6 +7,10 @@ It drives me crazy that LeetCode's default layout has the bottom right panel fol
 
 This extension flips them so they match what you'd expect.
 
+| Before | After |
+|--------|-------|
+| ![before](images/before.png) | ![after](images/after.png) |
+
 ## Install
 
 1. Clone or download this repo

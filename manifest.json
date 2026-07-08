@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LeetCode Arrow Fix",
+  "name": "LeetCode Bottom Right Panel Fix",
   "version": "1.0.0",
-  "description": "Fixes the Testcase panel fold arrow direction for LeetCode Default Layout.",
+  "description": "Fixes the fold arrow direction on the bottom right panel for LeetCode Default Layout.",
   "content_scripts": [
     {
       "matches": ["https://leetcode.com/problems/*"],
