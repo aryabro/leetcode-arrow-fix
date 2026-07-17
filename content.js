@@ -5,8 +5,12 @@ function injectLeetCodeArrowFix() {
   style.id = "leetcode-arrow-fix-style";
 
   style.textContent = `
-    button.fold svg.fa-chevron-up,
-    button.fold svg.fa-chevron-down {
+    #result_tabbar_outer button.fold svg.fa-chevron-up,
+    #result_tabbar_outer button.fold svg.fa-chevron-down,
+    #testcase_tabbar_outer button.fold svg.fa-chevron-up,
+    #testcase_tabbar_outer button.fold svg.fa-chevron-down,
+    #ai-agent_tabbar_outer button.fold svg.fa-chevron-left,
+    #ai-agent_tabbar_outer button.fold svg.fa-chevron-right {
       transform: translate(-50%, -50%) rotate(180deg) !important;
       transform-origin: center !important;
     }
